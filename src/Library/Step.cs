@@ -8,6 +8,10 @@ namespace Full_GRASP_And_SOLID.Library
 {
     public class Step
     {
+        /* Patrón Expert: La clase Step tiene la responsabilidad de calcular los costos de 
+        los insumos y equipamiento de cada paso porque es la que conoce tanto el producto 
+        utilizado como el equipamiento y tiempo insumido */
+        
         public Step(Product input, double quantity, Equipment equipment, int time)
         {
             this.Quantity = quantity;
